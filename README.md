@@ -1,2 +1,2 @@
 # crypto_wallet
-for the exchange of eterium 
+for the exchange of etherium 
