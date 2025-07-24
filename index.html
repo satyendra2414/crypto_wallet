@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Wallet</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wallet-container">
+    <header>
+      <h1>My Crypto Wallet</h1>
+      <p class="wallet-address">0xABCD...1234</p>
+    </header>
+
+    <div class="balance-card">
+      <h2>Wallet Balance</h2>
+      <p class="balance">$3,524.75</p>
+    </div>
+
+    <div class="token-section">
+      <h3>My Tokens</h3>
+      <ul class="token-list">
+        <li>
+          <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="ETH" />
+          <span>Ethereum (ETH)</span>
+          <span class="amount">2.5</span>
+        </li>
+        <li>
+          <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="BTC" />
+          <span>Bitcoin (BTC)</span>
+          <span class="amount">0.08</span>
+        </li>
+        <li>
+          <img src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png" alt="USDC" />
+          <span>USD Coin (USDC)</span>
+          <span class="amount">300</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="actions">
+      <button onclick="sendCrypto()">Send</button>
+      <button onclick="receiveCrypto()">Receive</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
